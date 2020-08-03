@@ -10,7 +10,7 @@ end
 def reverse_each_wrod(sentence)
   my_array = sentence.split(" ")
   returned_array = []
-  my_array.collect do |sting|
+  my_array.collect do |string|
     returned_array << string.reverse
   end
   returned_array.join(" ")
