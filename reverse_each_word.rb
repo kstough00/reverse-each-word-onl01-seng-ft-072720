@@ -13,5 +13,5 @@ def reverse_each_wrod(sentence)
   my_array.collect do |sting|
     returned_array << string.reverse
   end
-  returned_array
+  returned_array.join(" ")
 end
